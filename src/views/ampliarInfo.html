@@ -23,20 +23,20 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Categorias</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Dropdown
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Indice</a></li>
+                  <li><a class="dropdown-item" href="#">Catalogo</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Colores</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -76,8 +76,8 @@
                   <h4>Devolución en 30 días</h4>
                   <br><br>
                   <label for="cantidad">Cantidad</label>
-                  <input type="number" id="cantidadproducto" name="cantidad"
-                   min="1" max="100" pattern="^[1-9]\d*$">
+                  <input type="number" name="number" id="numero" 
+                   min="1" pattern="[1-9]\d*" placeholder="1" class="form-control" oninput="validity.valid||(value='');" id="cantidad">
                   <br><br>
                   <h3 class="text-success"></h3>
                   <h4>SubTotal</h4>

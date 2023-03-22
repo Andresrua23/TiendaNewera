@@ -40,10 +40,6 @@ botonAgregarProducto.addEventListener("click",function(){
     let precio=infoProducto.precio.split("cop ")[0]
     console.log(precio)
 
-    let subTotal=precio*cantidad
-    console.log(subTotal)
-
-
     
 })
 

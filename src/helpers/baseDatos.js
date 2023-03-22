@@ -5,7 +5,7 @@ export let productos=Array(
     {//atributo
         nombre:"FALCONS",
         descripcion:"RED CAP FALCONS-CAPRICORNIO",
-        fotos:["https://firebasestorage.googleapis.com/v0/b/aratienda-360b4.appspot.com/o/a1.webp?alt=mken=e39ab483-9145-4e92-be00-762050b346b8","https://firebasestorage.googleapis.com/v0/b/aratienda-360b4.appspot.com/o/a2.webp?alt=media&token=23daecb9-47d0-4b5a-90cb-43e577742030"],
+        fotos:["https://firebasestorage.googleapis.com/v0/b/aratienda-360b4.appspot.com/o/a1.webp?alt=media&token=23daecb9-47d0-4b5a-90cb-43e577742030","https://firebasestorage.googleapis.com/v0/b/aratienda-360b4.appspot.com/o/a2.webp?alt=media&token=23daecb9-47d0-4b5a-90cb-43e577742030"],
         precio:180000,
         popularidad:4.2
     },
